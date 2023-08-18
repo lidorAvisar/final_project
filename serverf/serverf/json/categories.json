@@ -1,0 +1,34 @@
+[
+    {
+      "name":"מחלקת לחמים ומאפים",
+      "url_name":"breads"
+    },
+    {
+      "name":"מחלקת מוצרי חלב",
+      "url_name":"dairy"
+    },
+    {
+      "name":"מחלקת קפואים",
+      "url_name":"frozens"
+    },
+    {
+      "name":"מחלקת פירות",
+      "url_name":"fruits"
+    },
+    {
+      "name":"משקאות חמים",
+      "url_name":"hot-drinks"
+    },
+    {
+      "name":"משקאות קלים",
+      "url_name":"soft-drinks"
+    },
+    {
+      "name":"מחלקת ירקות",
+      "url_name":"vegetables"
+    },
+    {
+      "name":"מחלקת יינות",
+      "url_name":"wines"
+    }
+  ]

@@ -1,0 +1,89 @@
+.iconHover:hover {
+    transform: scale(1.3);
+    transition: ease 0.3s;
+}
+
+.text-color-yellow:hover {
+    color: #e8f34f;
+    transition: ease 0.3s;
+
+}
+
+.text-color-red:hover {
+    color: #c01b1b;
+    transition: ease 0.3s;
+}
+
+.text-color-orange:hover {
+    color: #ff9500;
+    transition: ease 0.3s;
+}
+
+.text-color-light_blue:hover {
+    color: #34c1cb;
+    transition: ease 0.3s;
+}
+
+.text-color-body:hover {
+    color: #c5b081;
+    transition: ease 0.3s;
+}
+
+.text-color-purple:hover {
+    color: #44179f;
+    transition: ease 0.3s;
+}
+
+.text-color-brown:hover {
+    color: #7F461B;
+    transition: ease 0.3s;
+}
+
+.text-color-green:hover {
+    color: #60d27c;
+    transition: ease 0.3s;
+}
+
+.text-color-blue:hover {
+    color: #5077b9;
+    transition: ease 0.3s;
+}
+
+.text-color-pink:hover {
+    color: #d052e0;
+    transition: ease 0.3s;
+}
+
+
+
+.dark-true input {
+    color: white;
+    background-color: black;
+}
+.dark-true input:focus {
+    color: white;
+    background-color: black;
+}
+
+.dark-true input::placeholder {
+    color: white;
+}
+
+
+.dark-false input ::placeholder {
+    color: black;
+}
+.dark-false input {
+    color: black;
+    background-color: white;
+}
+
+
+/* shipping input*/
+.dark-true::placeholder {
+    color: white;
+}
+
+.dark-false::placeholder {
+    color: black;
+}

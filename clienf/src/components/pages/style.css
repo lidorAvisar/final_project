@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(235, 226, 226);
+}
+
+*.dark-true {
+    color: white;
+    background-color: rgb(26, 25, 25);
+    transition: 0.4s;
+}
+
+*.dark-false {
+    color: black;
+    background-color: rgb(235, 226, 226);
+    transition: 0.4s;
+}
+
+
+@media screen and (min-width:250px) {
+    .card-responsive {
+        width: 79vw;
+    }
+}
+
+@media screen and (min-width:365px) {
+    .card-responsive {
+        width: 42vw;
+
+    }
+}
+
+@media screen and (min-width:400px) {
+    .card-responsive {
+        width: 43vw;
+
+    }
+}
+
+* {
+    ::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: #aaa5a5;
+        border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #1565c6;
+        border-radius: 4px;
+    }
+}
+
+textarea.dark_true {
+    background-color: black;
+}
+
+textarea.dark_true::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+textarea.dark_true:focus {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+
+.item-animation {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0%;
+    top: 4%;
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+@keyframes example {
+    0%   { right:0%; top:4%;}
+    90%  { transform: scale(0.5,0.5); right:92.5%; top:4%;}
+    100%  { transition: 3s; right:92.5%; }
+  }
