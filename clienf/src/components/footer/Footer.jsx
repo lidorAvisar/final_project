@@ -37,7 +37,7 @@ const Footer = () => {
             </div>
             <div className="copyright-footer">
                 <div style={{ borderBottom: '1px solid gray', width: '90%', margin: '0 auto' }}></div>
-                <p className='text-center pt-4 pb-4' style={{ fontFamily: 'initial' }}>Copyright © 2023 - All right reserved by Lidor Avisar</p>
+                <p className='text-center pt-4 pb-4' style={{ fontFamily: 'initial' }}>Copyright © 2023 - All right reserved by Lidor Avisar & Nadav Yonatanov</p>
             </div>
         </div>
     )
