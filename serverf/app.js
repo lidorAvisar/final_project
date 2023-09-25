@@ -3,6 +3,7 @@ const path = require("path");
 const http = require("http");
 const cors = require("cors");
 const {routesInit} = require("./routes/configRoutes");
+const {config} = require("./config/secret")
 require("./db/mongoConnect")
 
 const app = express();
@@ -19,8 +20,5 @@ routesInit(app)
 
 const server = http.createServer(app);
 
-let port = process.env.PORT || 3006
+let port = config.PORT || 3006
 server.listen(port);
-
-
-
